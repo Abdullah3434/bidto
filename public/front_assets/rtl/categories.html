@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html class="rtl" lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=0">
+<title>BidTo</title>
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#81e1ba">
+<meta name="msapplication-TileColor" content="#81e1ba">
+<meta name="theme-color" content="#ffffff">
+<!--favicon-->
+
+<!--Cairo, Poppins Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<!--Cairo, Poppins Google fonts end-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="css/rtl.css">
+
+<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+<script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+</head>
+<body class="home_body">
+<div class="wrapper">
+  <header role="header" class="header">
+    <div class="header_main">
+      <div class="menuIcon"> <span></span> <span></span> <span></span> <span></span> </div>
+      <div class="header_inner">
+        <div class="logo"> <a href="home_buyer.html">
+          <figure><img src="images/logo.svg" alt="#."></figure>
+          </a> </div>
+        <div class="header_right">
+          <div class="header_search">
+            <div class="header_srch_field">
+              <input type="text" placeholder="Search">
+            </div>
+          </div>
+          <div class="header_uer_info_sec">
+            <ul>
+              <li class="header_uer_info_li">
+                <div class="header_settings"><a href="javascript:void(0)" class="header_settings_icon"></a></div>
+              </li>
+              <li class="header_uer_info_li">
+                <div class="header_notify"><a  href="javascript:void(0)" class="header_notify_bell"><i class="header_notify_status"></i></a>
+                  <div class="notify_popup notify_popup_show">
+                    <div class="notifyPop_inner">
+                      <div class="notifyPop_header"> <strong>Notification <a href="javascript:void(0)">Remove all</a></strong> </div>
+                      <div class="notifyPop_content">
+                        <div class="notify_popup_tabs">
+                          <div class="notify_popup_tabs_title">
+                            <ul>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_buyer active" href="javascript:void(0)">Buyer</a></li>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_seller" href="javascript:void(0)">Seller</a></li>
+                            </ul>
+                          </div>
+                          <div class="notify_popup_tabs_content">
+                            <div class="notify_popup_tabs_show notify_popup_tab_buyer">
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Today</strong> <span>2 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Yesterday</strong> <span>4 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header_uer_info_li header_user_info_li">
+                <div class="user_info_top">
+                  <div class="header_user_info_text"> <strong>Darren Ritchie</strong> <span><a class="header_editPro_link" href="javascript:void(0)">Edit Profile</a></span> </div>
+                  <a class="header_user_avatar" href="javascript:void(0)"><img src="images/user_avatar.png" alt="#"><i class="header_avatar_setting_icon"></i></a> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="left_menu">
+    <div class="left_bar_inner">
+      <div class="menuMain">
+        <div class="menu_clos">x</div>
+        <ul class="lb_menuTop_list">
+          <li><a class="lb_home" href="home_buyer.html">Home</a> </li>
+          <li><a class="lb_categories active" href="categories.html">Categories</a> </li>
+          <li><a class="lb_active_deals" href="active_deals_buyer.html">Active Deals</a> </li>
+          <li><a class="lb_sponsorship" href="sponsors.html">Sponsorship</a> </li>
+          <li><a class="lb_Chat" href="chat.html">Chat</a> </li>
+        </ul>
+        <ul class="lb_menulogout_list">
+          <li><a class="lb_contactUs" href="contact_us.html">Contact Us</a> </li>
+          <li><a class="lb_signOut" href="login_with_email.html">Sign out</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <main class="content" role="main">
+    <div class="all_content_box">
+      <div class="content_main">
+        <div class="active_deals_main categories_main_content">
+          <div class="autoContent">
+            <div class="active_deals_content">
+              <div class="deals_filter_row">
+                <div class="filter_title">
+                  <h2>Categories</h2>
+                </div>
+                 
+                 
+                 
+              </div>
+              <div class="deal_listing_main">
+                <ul>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img1.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Valuable Coins</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Jewelry</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img3.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Antiques</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img1.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Valuable Coins</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Jewelry</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img3.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Antiques</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img1.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Valuable Coins</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Jewelry</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img3.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Antiques</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img1.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Valuable Coins</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Jewelry</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img3.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Antiques</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img1.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Valuable Coins</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Jewelry</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="deal_li">
+                    <div class="deal_list_box">
+                      <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img3.png" alt="#"></a> </div>
+                      <div class="deal_list_detail">
+                        <h3><a href="javascript:void(0)">Antiques</a></h3>
+                        <div class="deal_list_auther"> <span>19,829 Listing</span> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<div class="side_popup side_sort_popup">
+  <div class="side_popup_whitebox">
+    <div class="side_popup_heading">
+      <h2>Sort by <a class="side_popup_back_arrow" href="javascript:void(0)"></a></h2>
+    </div>
+    <div class="side_popup_content">
+      <div class="sort_popup_list">
+        <ul>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> High to Low Price
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> Low to High Price
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> New Items
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> Highly Recommended
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="side_popup_footer"> <a class="all_buttons all_green" href="javascript:void(0)">Sort Results</a> </div>
+  </div>
+  <div class="side_popup_overlay"></div>
+</div>
+<div class="side_popup side_filter_popup">
+  <div class="side_popup_whitebox">
+    <div class="side_popup_heading">
+      <h2>Filters <a class="side_popup_back_arrow" href="javascript:void(0)"></a></h2>
+    </div>
+    <div class="side_popup_content">
+      <div class="filter_search_row">
+        <div class="form_field has_search_icon">
+          <input type="text">
+        </div>
+      </div>
+      <div class="filter_categories">
+        <h3 class="side_filter_title_text">Show Categories</h3>
+        <ul>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Fashion</a></li>
+          <li><a class="filter_cat_btn active" href="javascript:void(0)">Furniture</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Electronics &amp; Media</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Beauty &amp; Personal Care</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Antiques</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Cars</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Tools &amp; Goods</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Watches &amp; Jewelry</a></li>
+        </ul>
+      </div>
+      <h3 class="side_filter_title_text">Price Range</h3>
+      <div class="side_priceRange_row">
+        <input type="text" class="side_priceRange_slider" name="my_range" value="" />
+      </div>
+      <h3 class="side_filter_title_text">Show</h3>
+      <div class="side_filter_auctions_row">
+        <ul>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Auctions
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Direct Buy
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Bided
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="side_popup_footer"> <a class="all_buttons all_green" href="javascript:void(0)">Filter Results</a> </div>
+  </div>
+  <div class="side_popup_overlay"></div>
+</div>
+
+<!--Pick Service Type popup-->
+<div class="all_popup serviceType_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Pick Service Type</strong>
+            <div class="pick_service_type_list">
+              <ul>
+                <li>
+                  <div class="pick_service_box">
+                    <div class="pick_service_cell">
+                      <input class="pick_service_check pick_service_check_item" type="radio" name="pick_service">
+                      <i class="pick_service_icon_item"></i> <strong>Item</strong> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="pick_service_box">
+                    <input class="pick_service_check pick_service_check_service" type="radio" name="pick_service">
+                    <div class="pick_service_cell"> <i class="pick_service_icon_service"></i> <strong>Service</strong> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="pick_service_box">
+                    <input class="pick_service_check pick_service_check_request" type="radio" name="pick_service">
+                    <div class="pick_service_cell"> <i class="pick_service_icon_request"></i> <strong>Request</strong> </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pick_item_proceed_out"> <a class="pick_item_proceed_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Proceed</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--Pick Service Type popup--> 
+
+<!--add images popup start-->
+<div class="all_popup add_images_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Add Images</strong>
+            <div class="uploadImages_row">
+              <div class="new_list_progress">
+                <div class="new_list_progress_bar"></div>
+              </div>
+              <div class="uploadImage_box">
+                <div class="uploadImage_box_inner">
+                  <input type="file" accept="image/*"  multiple >
+                  <strong>Upload Image</strong> <small>Click to select the images with <br>
+                  max size 2 mb</small> </div>
+              </div>
+              <div class="uploading_images_list">
+                <ul>
+                  <li>
+                    <div class="uploading_image_box image_uploaded_done"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress active">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar" style="width:70%;"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uploading_image_box"> <span><img src="images/deals_img3.png" alt="#"></span>
+                      <div class="image_uploading_progress">
+                        <div class="image_uploading_progress_bar"></div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_addImages_next_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Item Info</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--add images popup end--> 
+
+<!--item info popup start-->
+<div class="all_popup item_info_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Item Info</strong>
+            <div class="uploadImages_row">
+              <div class="new_list_progress">
+                <div class="new_list_progress_bar" style="width:66.66%"></div>
+              </div>
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">Item Type</span>
+                        <select>
+                          <option>Item Type</option>
+                          <option>Item Type2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">Oldest Year</span>
+                        <select>
+                          <option>Oldest Year</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">New or Used</span>
+                        <select>
+                          <option>New or Used</option>
+                          <option>New</option>
+                          <option>Used</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">Newest Year</span>
+                        <select>
+                          <option>Newest Year</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">Make</span>
+                        <select>
+                          <option>Make</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Interior Color">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">Model</span>
+                        <select>
+                          <option>Model</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Exterior Color">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Max Price">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Transmission">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="selectbox"> <span class="selectbox_span">No. of Cylinders</span>
+                        <select>
+                          <option>No. of Cylinders</option>
+                          <option>2</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_iteminfo_next_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Promotion</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--item info popup end--> 
+
+<!--request item info popup start-->
+<div class="all_popup request_item_info_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Item Info</strong>
+            <div class="uploadImages_row">
+              <div class="new_list_progress">
+                <div class="new_list_progress_bar" style="width:66.66%"></div>
+              </div>
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input type="text" placeholder="Title">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <textarea placeholder="Description"></textarea>
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input type="text" placeholder="Preferred Location">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Price From">
+                      </div>
+                    </div>
+                    <div class="formCell col6">
+                      <div class="form_field">
+                        <input type="text" placeholder="Price From">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_iteminfo_next_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Promotion</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--request item info popup end--> 
+
+<!--service item info popup start-->
+<div class="all_popup service_item_info_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Item Info</strong>
+            <div class="uploadImages_row">
+              <div class="new_list_progress">
+                <div class="new_list_progress_bar" style="width:50%"></div>
+              </div>
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input type="text" placeholder="Title">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <textarea placeholder="Description"></textarea>
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input type="text" placeholder="Preferred Location">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_iteminfo_next_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Promotion</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--request item info popup end--> 
+
+<!--item promotion popup start-->
+<div class="all_popup item_promotion_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Item Info</strong>
+            <div class="uploadImages_row">
+              <div class="new_list_progress">
+                <div class="new_list_progress_bar" style="width:100%"></div>
+              </div>
+              <div class="itemPromo_form">
+                <div class="itemPromo_enable_row"> <strong>Enable Promotion</strong>
+                  <div class="itemPromo_enable_switch">
+                    <input class="itemPromo_enable_switch_check" type="checkbox">
+                    <label> <i class="itemPromo_switch_tick"></i> <i class="itemPromo_switch_block"></i> </label>
+                  </div>
+                </div>
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="selectbox"> <span class="selectbox_span">Promoting Period</span>
+                        <select>
+                          <option>Promoting Period</option>
+                          <option>Promoting Period2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="itemPromo_useBlnce_main itemPromo_useBlnce_check">
+                        <div class="form_checkbox checkbox_dark_color inline_checkbox">
+                          <label> <em class="userBlnce_txt"> <strong>Use Balance</strong> <small>2,154 $ Available</small> </em>
+                            <input data-id="everyone" type="checkbox">
+                            <span class="checkbox_checked"></span> </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="itemPromo_useBlnce_main itemPromo_promo_check">
+                        <div class="form_checkbox checkbox_dark_color inline_checkbox">
+                          <label> <em class="userBlnce_txt"> <strong>Use Balance</strong> <small>2,154 $ Available</small> </em>
+                            <input data-id="everyone" type="checkbox">
+                            <span class="checkbox_checked"></span> </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="itemPromo_price"> <small>Promotion Price</small>
+                        <h2>293.84 <span>KD</span></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_promo_next_btn all_buttons has_proceed_icon all_green has_icon" href="javascript:void(0)">Create Listing</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--item promotion popup end--> 
+
+<!--item added popup start-->
+<div class="all_popup item_added_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="uploadImages_row">
+              <div class="itemAdded_box">
+                <div class="deal_list_box">
+                  <div class="deal_list_img"> <a href="javascript:void(0)"><img src="images/deals_img2.png" alt="#"></a> <a class="bookmark_item_star active" href="javascript:void(0)"></a> </div>
+                  <div class="deal_list_detail">
+                    <h3><a href="javascript:void(0)">1.93 Ct Ruby Jewel</a></h3>
+                    <div class="deal_list_auther"> <span>Andrea Jonas</span> </div>
+                    <div class="deal_list_price"> <strong>12,000 KD</strong>
+                      <div class="deal_list_time">3d : 15h : 20m</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="itemAdded_heading">
+                <h2>Request Added!</h2>
+                <p>Your Request has been added to the store successfully</p>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_promo_next_btn all_buttons btn_block lignt_green" href="javascript:void(0)">Store Page</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--item added popup end--> 
+
+<!--service added popup start-->
+<div class="all_popup service_added_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="uploadImages_row">
+              <div class="serviceAdded_box">
+                <h3>Looking for a designer</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit volunde
+                  tatem accusantium doloremque laudantium, totamrdanti
+                  m aperiam, eaque ipsa quae ab illo inventore veritatvenq
+                  orro quisquam est, qui dolo</p>
+              </div>
+              <div class="itemAdded_heading">
+                <h2>Request Added!</h2>
+                <p>Your Request has been added to the store successfully</p>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="pick_item_promo_next_btn all_buttons btn_block lignt_green" href="javascript:void(0)">Store Page</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--service added popup end--> 
+
+<!--""""""""""""""""""""""all settings popup's html below""""""""""""""""""""""""--> 
+
+<!--settings popup start-->
+<div class="all_popup settings_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Settings</strong>
+            <div class="uploadImages_row">
+              <div class="settings_pop_lists">
+                <ul>
+                  <li><span class="settings_pop_title">Account</span></li>
+                  <li><a class="settings_pop_btn settings_pop_changePw" href="reset_password.html">Change Password</a></li>
+                  <li><a class="settings_pop_btn settings_pop_changeLang" href="javascript:void(0)">Change Language</a></li>
+                  <li><a class="settings_pop_btn settings_pop_contactUs" href="contact_us.html">Contact Us</a></li>
+                  <li><a class="settings_pop_btn settings_pop_blnce" href="balance.html">Top-up Balance</a></li>
+                  <li><span class="settings_pop_title">Others</span></li>
+                  <li><a class="settings_pop_btn settings_pop_privacy" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="settings_pop_btn settings_pop_terms" href="terms.html">Terms &amp; Conditions</a></li>
+                  <li><a class="settings_pop_btn settings_pop_deleteAc" href="javascript:void(0)">Delete Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--settings popup end--> 
+
+<!--language select popup start-->
+<div class="all_popup language_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Select Language <small>Select your preferred app language</small> </strong>
+            <div class="pick_service_type_list lang_check_main">
+              <ul>
+                <li>
+                  <div class="pick_service_box">
+                    <div class="pick_service_cell">
+                      <input class="lang_check lang_check_ar" type="radio" name="lang">
+                      <i class="lang_check_ar_icon"></i> <strong>Arabic</strong> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="pick_service_box active">
+                    <input class="lang_check lang_check_eng" checked="checked" type="radio" name="lang">
+                    <div class="pick_service_cell"> <i class="lang_check_eng_icon"></i> <strong>English</strong> </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pick_item_proceed_out"> <a class="lang_popup_addNewBitBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Add New Bid</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--language select popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup delete_account_confirmation_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <h2>Delete Account?</h2>
+              <p>Are you sure you want to delete your account, that will remove all saved data and bid you've made earlier</p>
+              <div class="formRow clearfix">
+                <div class="formCell col6"><a class="cancelBtn all_buttons btn_block green_border" href="javascript:void(0)">Cancel</a></div>
+                <div class="formCell col6"><a class="accountDeleteBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Delete</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup account_deleted_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>Account Deleted!</h2>
+              <p>Your account has been deleted successfully and all data was terminated</p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="login_with_email.html">Back to Login</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--""""""""""""""""""""""all settings popup's html end""""""""""""""""""""""""--> 
+
+<script>
+ $(".side_priceRange_slider").ionRangeSlider({
+	min: 8000,
+	max: 80000,
+	 postfix: " KD ",
+	from: 40000,
+	onStart: function (data) {
+		// fired then range slider is ready
+	},
+	onChange: function (data) {
+		// fired on every range slider update
+	},
+	onFinish: function (data) {
+		// fired on pointer release
+	},
+	onUpdate: function (data) {
+		// fired on changing slider with Update method
+	}
+});
+
+
+
+$(document).ready(function(e) { 
+
+ $(".filter_addNewList_btn").click(function() {
+	$(".serviceType_popup").show();
+	$("html, body").addClass("popup_hidden");
+});
+
+ $(".pick_item_proceed_btn").click(function() {
+	 if($(".pick_service_check_item").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".add_images_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".add_images_popup").show();
+	 } 
+	 
+	  if($(".pick_service_check_service").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".service_item_info_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+ 
+
+ $(".pick_item_iteminfo_next_btn").click(function() {
+	 $(".all_popup").hide();
+	$(".item_promotion_popup").show();
+	$("html, body").addClass("popup_hidden");
+});
+
+
+
+ $(".pick_item_promo_next_btn").click(function() {
+	 if($(".pick_service_check_item").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_added_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_added_popup").show();
+	 } 
+	 
+	  if($(".pick_service_check_service").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".service_added_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+
+ $(".pick_item_addImages_next_btn").click(function() {
+	 $ 
+	  if($(".pick_service_check_item").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_info_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".request_item_info_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+
+
+
+
+
+
+});
+
+
+
+
+
+</script>
+</body>
+</html>

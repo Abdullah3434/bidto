@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="rtl" lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=0">
+<title>BidTo</title>
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#81e1ba">
+<meta name="msapplication-TileColor" content="#81e1ba">
+<meta name="theme-color" content="#ffffff">
+<!--favicon-->
+
+<!--Cairo, Poppins Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<!--Cairo, Poppins Google fonts end-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="css/rtl.css">
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+</head>
+<body class="home_body">
+<div class="login_wrapper">
+  <div class="login_content">
+    <div class="login_left">
+      <div class="login_detail">
+        <div class="login_slogen"><span><img src="images/login_logo.svg" alt="#"></span></div>
+        <h1>مرحبا بكم في بيدتو</h1>
+        <p>جعلت البيع والشراء سهلا! ابدأ في استخدام منصتنا اليوم</p>
+        <div class="login_detail_buttons">
+          <ul>
+            <li><a class="all_buttons has_icon has_userPlus_icon" href="sign_up.html">اشتراك</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="login_right">
+      <div class="login_form_box">
+        <div class="login_form_section">
+          <div class="login_title_text">
+            <h2>تسجيل الدخول</h2>
+            <p>تسجيل الدخول لبدء إدارة الأصول الخاصة بك ومراقبة التحديثات.</p>
+          </div>
+          <div class="login_socials">
+            <ul>
+              <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+              <li><a href="javascript:void(0)"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <form name="formname" onsubmit="return login_form(this);" method="POST">
+            <div class="login_form">
+              <div class="login_field_row login_email_row"> <strong class="login_field_title login_email_icon">عنوان البريد الإلكتروني</strong>
+                <div class="login_form_field">
+                  <input type="text" name="login_em" placeholder="عنوان البريد الإلكتروني">
+                </div>
+              </div>
+              <div class="login_field_row login_pw_row"> <strong class="login_field_title login_pw_icon">كلمه السر</strong>
+                <div class="login_form_field">
+                  <input class="field_has_eye_icon" type="Password" name="login_pw" placeholder="**********">
+                  <i class="confirmField_show_pw"></i> </div>
+              </div>
+              <div class="login_field_row login_pw_row">
+                <div class="forgetPw_rememberParent">
+                  <div class="form_checkbox inline_checkbox login_rememberMe_check">
+                    <label> تذكرنى
+                      <input data-id="everyone" type="checkbox" class="login_rememberMe_check_input" value="">
+                      <span class="checkbox_checked"></span> </label>
+                  </div>
+                  <a class="forgetPw_link" href="reset_password.html">نسيت كلمة المرور؟</a> </div>
+              </div>
+              <div class="login_field_row">
+                <div class="loginWithEmail_link_outer"> <a class="loginWithEmail_link" href="login_with_phone.html">تسجيل الدخول باستخدام رقم الهاتف</a> </div>
+                <div class="login_submit">
+                  <input class="all_buttons all_green has_icon has_login_icon login_submit_btn" type="submit" value="تسجيل الدخول">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function (e) {
+      $(".login_form_field").each(function (index, element) {
+        var fieldVal = $(this).find("input, textarea").val().length;
+        if (fieldVal > 0) {
+          $(this).addClass("isValue");
+        } else {
+          $(this).removeClass("isValue");
+        }
+      });
+      $(".login_form_field input, .login_form_field textarea").focus(function (e) {
+        $(this).parent().addClass("isFocus");
+        var fieldVal = $(this).val().length;
+        if (fieldVal < 1) {
+          $(this).parent().removeClass("isValue");
+        }
+      });
+      $(".login_form_field input, .login_form_field textarea").focusout(function (e) {
+        $(this).parent().removeClass("isFocus");
+        var fieldVal = $(this).val().length;
+        if (fieldVal > 0) {
+          $(this).parent().addClass("isValue");
+        } else {
+          $(this).parent().removeClass("isValue");
+        }
+      });
+      ////////////////////////
+      });
+ 
+ 
+    /*login from validation start here*/
+    function login_form(theForm) {
+      var mailStatus = 1;
+      var error_stroke = "";
+      $(".login_form_field input, .login_form_field textarea, .selectbox").removeClass("error_stroke");
+      $(".fieldError_text").remove();
+
+      var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      var totallane_user_email = theForm.login_em;
+	 
+      if (theForm.login_em.value.length <= 0) {
+          mailStatus = 1;
+      }
+	 
+      if (mailStatus === 1) {
+        if (theForm.login_em.value.length == "") {
+          error_stroke = "<em class='fieldError_text'>Please enter an email</em>";
+          $(theForm).find("[name='login_em']").addClass("error_stroke");
+          $(theForm).find("[name='login_em']").closest(".login_form_field").after(error_stroke);
+        } else {
+          mailStatus = 0;
+        }
+      }
+      if (mailStatus === 0) {
+		  
+        if (!re.test(theForm.login_em.value)) {
+		   error_stroke = "<em class='fieldError_text'>Invalid email addresss</em>";
+          $(theForm).find("[name='login_em']").addClass("error_stroke");
+          $(theForm).find("[name='login_em']").closest(".login_form_field").after(error_stroke);
+        }
+      }
+	  
+
+      if (theForm.login_pw.value == "") {
+		 error_stroke = "<em class='fieldError_text'>Please enter your password</em>";
+         $(theForm).find("[name='login_pw']").addClass("error_stroke");
+         $(theForm).find("[name='login_pw']").closest(".login_form_field").after(error_stroke);
+      }
+
+      if (error_stroke !== "") {
+        return false;
+      } else {
+        $(".login_submit").addClass("disabled");
+        $(".login_error").hide();
+        $(".fieldError_text").remove();
+        return false;
+      }
+    }
+ 
+  </script>
+</html>

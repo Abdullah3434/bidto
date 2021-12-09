@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html class="rtl" lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=0">
+<title>BidTo</title>
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#81e1ba">
+<meta name="msapplication-TileColor" content="#81e1ba">
+<meta name="theme-color" content="#ffffff">
+<!--favicon-->
+
+<!--Cairo, Poppins Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<!--Cairo, Poppins Google fonts end-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="css/rtl.css">
+
+<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+<script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+</head>
+<body class="home_body">
+<div class="wrapper">
+  <header role="header" class="header">
+    <div class="header_main">
+      <div class="menuIcon"> <span></span> <span></span> <span></span> <span></span> </div>
+      <div class="header_inner">
+        <div class="logo"> <a href="home_buyer.html">
+          <figure><img src="images/logo.svg" alt="#."></figure>
+          </a> </div>
+        <div class="header_right">
+          <div class="header_search">
+            <div class="header_srch_field">
+              <input type="text" placeholder="Search">
+            </div>
+          </div>
+          <div class="header_uer_info_sec">
+            <ul>
+              <li class="header_uer_info_li">
+                <div class="header_settings"><a href="javascript:void(0)" class="header_settings_icon"></a></div>
+              </li>
+              <li class="header_uer_info_li">
+                <div class="header_notify"><a  href="javascript:void(0)" class="header_notify_bell"><i class="header_notify_status"></i></a>
+                  <div class="notify_popup notify_popup_show">
+                    <div class="notifyPop_inner">
+                      <div class="notifyPop_header"> <strong>Notification <a href="javascript:void(0)">Remove all</a></strong> </div>
+                      <div class="notifyPop_content">
+                        <div class="notify_popup_tabs">
+                          <div class="notify_popup_tabs_title">
+                            <ul>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_buyer active" href="javascript:void(0)">Buyer</a></li>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_seller" href="javascript:void(0)">Seller</a></li>
+                            </ul>
+                          </div>
+                          <div class="notify_popup_tabs_content">
+                            <div class="notify_popup_tabs_show notify_popup_tab_buyer">
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Today</strong> <span>2 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Yesterday</strong> <span>4 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header_uer_info_li header_user_info_li">
+                <div class="user_info_top">
+                  <div class="header_user_info_text"> <strong>Darren Ritchie</strong> <span><a class="header_editPro_link" href="javascript:void(0)">Edit Profile</a></span> </div>
+                  <a class="header_user_avatar" href="javascript:void(0)"><img src="images/user_avatar.png" alt="#"><i class="header_avatar_setting_icon"></i></a> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="left_menu">
+    <div class="left_bar_inner">
+      <div class="menuMain">
+        <div class="menu_clos">x</div>
+        <ul class="lb_menuTop_list">
+          <li><a class="lb_home" href="home_buyer.html">Home</a> </li>
+          <li><a class="lb_categories" href="categories.html">Categories</a> </li>
+          <li><a class="lb_active_deals" href="active_deals_buyer.html">Active Deals</a> </li>
+          <li><a class="lb_sponsorship" href="sponsors.html">Sponsorship</a> </li>
+          <li><a class="lb_Chat" href="chat.html">Chat</a> </li>
+        </ul>
+        <ul class="lb_menulogout_list">
+          <li><a class="lb_contactUs" href="contact_us.html">Contact Us</a> </li>
+          <li><a class="lb_signOut" href="login_with_email.html">Sign out</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <main class="content" role="main">
+    <div class="all_content_box">
+      <div class="content_main">
+        <div class="active_deals_main">
+          <div class="autoContent">
+            <div class="current_balance_content">
+              <div class="profile_content_box">
+                <div class="balance_headline">
+                  <div class="balance_headline_text">
+                    <h3>Current Balance</h3>
+                    <h2>42.3312</h2>
+                    <small>KD</small> </div>
+                  <div class="balance_headline_right"> <a class="balance_add_btn all_buttons has_plus_icon all_small light_green has_icon" href="javascript:void(0)">Add Balance</a> </div>
+                </div>
+                <div class="balance_transection_title"> <strong>Latest Transaction</strong> <span><a class="balance_transection_more more_Link" href="javascript:void(0)">Show More</a></span> </div>
+                <div class="latest_transection_list">
+                  <ul>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                    <li>
+                      <div class="latest_transection_list_box"> <span>2,351 KD </span> <small>Aug 19, 2019</small> </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<div class="side_popup side_sort_popup">
+  <div class="side_popup_whitebox">
+    <div class="side_popup_heading">
+      <h2>Sort by <a class="side_popup_back_arrow" href="javascript:void(0)"></a></h2>
+    </div>
+    <div class="side_popup_content">
+      <div class="sort_popup_list">
+        <ul>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> High to Low Price
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> Low to High Price
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> New Items
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox has_radio">
+              <label> Highly Recommended
+                <input data-id="everyone" type="radio" name="sort_radio">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="side_popup_footer"> <a class="all_buttons all_green" href="javascript:void(0)">Sort Results</a> </div>
+  </div>
+  <div class="side_popup_overlay"></div>
+</div>
+<div class="side_popup side_filter_popup">
+  <div class="side_popup_whitebox">
+    <div class="side_popup_heading">
+      <h2>Filters <a class="side_popup_back_arrow" href="javascript:void(0)"></a></h2>
+    </div>
+    <div class="side_popup_content">
+      <div class="filter_search_row">
+        <div class="form_field has_search_icon">
+          <input type="text">
+        </div>
+      </div>
+      <div class="filter_categories">
+        <h3 class="side_filter_title_text">Show Categories</h3>
+        <ul>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Fashion</a></li>
+          <li><a class="filter_cat_btn active" href="javascript:void(0)">Furniture</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Electronics &amp; Media</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Beauty &amp; Personal Care</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Antiques</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Cars</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Tools &amp; Goods</a></li>
+          <li><a class="filter_cat_btn" href="javascript:void(0)">Watches &amp; Jewelry</a></li>
+        </ul>
+      </div>
+      <h3 class="side_filter_title_text">Price Range</h3>
+      <div class="side_priceRange_row">
+        <input type="text" class="side_priceRange_slider" name="my_range" value="" />
+      </div>
+      <h3 class="side_filter_title_text">Show</h3>
+      <div class="side_filter_auctions_row">
+        <ul>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Auctions
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Direct Buy
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+          <li>
+            <div class="form_checkbox checkbox_dark_color inline_checkbox">
+              <label> Bided
+                <input data-id="everyone" type="checkbox">
+                <span class="checkbox_checked"></span> </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="side_popup_footer"> <a class="all_buttons all_green" href="javascript:void(0)">Filter Results</a> </div>
+  </div>
+  <div class="side_popup_overlay"></div>
+</div>
+
+<!--""""""""""""""""""""""all settings popup's html below""""""""""""""""""""""""--> 
+
+<!--settings popup start-->
+<div class="all_popup settings_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Settings</strong>
+            <div class="uploadImages_row">
+              <div class="settings_pop_lists">
+                <ul>
+                  <li><span class="settings_pop_title">Account</span></li>
+                  <li><a class="settings_pop_btn settings_pop_changePw" href="reset_password.html">Change Password</a></li>
+                  <li><a class="settings_pop_btn settings_pop_changeLang" href="javascript:void(0)">Change Language</a></li>
+                  <li><a class="settings_pop_btn settings_pop_contactUs" href="contact_us.html">Contact Us</a></li>
+                  <li><a class="settings_pop_btn settings_pop_blnce" href="balance.html">Top-up Balance</a></li>
+                  <li><span class="settings_pop_title">Others</span></li>
+                  <li><a class="settings_pop_btn settings_pop_privacy" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="settings_pop_btn settings_pop_terms" href="terms.html">Terms &amp; Conditions</a></li>
+                  <li><a class="settings_pop_btn settings_pop_deleteAc" href="javascript:void(0)">Delete Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--settings popup end--> 
+
+<!--language select popup start-->
+<div class="all_popup language_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Select Language <small>Select your preferred app language</small> </strong>
+            <div class="pick_service_type_list lang_check_main">
+              <ul>
+                <li>
+                  <div class="pick_service_box">
+                    <div class="pick_service_cell">
+                      <input class="lang_check lang_check_ar" type="radio" name="lang">
+                      <i class="lang_check_ar_icon"></i> <strong>Arabic</strong> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="pick_service_box active">
+                    <input class="lang_check lang_check_eng" checked="checked" type="radio" name="lang">
+                    <div class="pick_service_cell"> <i class="lang_check_eng_icon"></i> <strong>English</strong> </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pick_item_proceed_out"> <a class="lang_popup_addNewBitBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Add New Bid</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--language select popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup delete_account_confirmation_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <h2>Delete Account?</h2>
+              <p>Are you sure you want to delete your account, that will remove all saved data and bid you've made earlier</p>
+              <div class="formRow clearfix">
+                <div class="formCell col6"><a class="cancelBtn all_buttons btn_block green_border" href="javascript:void(0)">Cancel</a></div>
+                <div class="formCell col6"><a class="accountDeleteBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Delete</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup account_deleted_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>Account Deleted!</h2>
+              <p>Your account has been deleted successfully and all data was terminated</p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="login_with_email.html">Back to Login</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--""""""""""""""""""""""all settings popup's html end""""""""""""""""""""""""-->
+
+<div class="all_popup small_popup contact_msg_sent_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>Message Sent!</h2>
+              <p>Thanks for your interest in sponsoring  our app! </p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Back</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<div class="all_popup small_popup balance_add_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Add Balance</strong>
+            <div class="uploadImages_row">
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="form_field bid_priceField">
+                        <input type="text" placeholder="" onclick="bid_field_mask(this)">
+                        <i>KD</i> </div>
+                    </div>
+                  </div>
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="saved_ac_row"> <strong class="saved_ac_cell">Account</strong>
+                        <div class="saved_ac_cell saved_ac_box">
+                          <div class="selectbox dark_selectbox"> <span class="selectbox_span"><strong class="saved_card_info">**** 6598 <img src="images/debit_card_icon.svg" alt="#"></strong></span>
+                            <ul class="selectbox_dropdown">
+                              <li class="active"><strong class="saved_card_info">**** 6598 <img src="images/debit_card_icon.svg" alt="#"></strong></li>
+                              <li><strong class="saved_card_info">**** 7660 <img src="images/debit_card_icon.svg" alt="#"></strong></li>
+                              <li><strong class="saved_card_info">**** 8051 <img src="images/debit_card_icon.svg" alt="#"></strong></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="saved_ac_cell saved_ac_creatNew"> <a class="saved_creatNewCard_btn" href="javascript:void(0)"></a> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out pt_30"> <a class="balance_payNow_btn all_buttons btn_block light_green" href="javascript:void(0)">Pay Now</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<div class="all_popup small_popup balance_newCard_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Add New Card</strong>
+            <div class="uploadImages_row">
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input class="newCrd_card_number_field" type="text" name="card_number" placeholder="Card Number">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input class="newCrd_expiry_date_field" type="text" name="expiry_date" placeholder="Expiry Date">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input class="newCrd_cvv_field" type="text" name="cvv" placeholder="CVV">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <div class="form_field">
+                        <input class="newCrd_card_holder_name_field" type="text" name="card_holder_name" placeholder="Card Holder Name">
+                      </div>
+                    </div>
+                    <div class="formCell col12">
+                      <label class="cardSaved_check">
+                        <input type="checkbox">
+                        Save this card for future use </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out pt_10"> <a class="cardAdd_btn all_buttons btn_block light_green" href="javascript:void(0)">Add Card</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<div class="all_popup small_popup balance_newCard_added_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>Card Added</h2>
+              <p>Card has been added successfully to your account</p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="cardAdded_backBtn all_buttons btn_block lignt_green" href="balance.html">Back</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<script>
+
+function bid_field_mask(obj){
+	$(obj).mask('00000000000');
+}
+ 
+ 
+
+</script>
+</body>
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html class="rtl" lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=0">
+<title>BidTo</title>
+
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#81e1ba">
+<meta name="msapplication-TileColor" content="#81e1ba">
+<meta name="theme-color" content="#ffffff">
+<!--favicon-->
+
+<!--Cairo, Poppins Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<!--Cairo, Poppins Google fonts end-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="css/rtl.css">
+
+<link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+<script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+</head>
+<body class="home_body">
+<div class="wrapper">
+  <header role="header" class="header">
+    <div class="header_main">
+      <div class="menuIcon"> <span></span> <span></span> <span></span> <span></span> </div>
+      <div class="header_inner">
+        <div class="logo"> <a href="home_buyer.html">
+          <figure><img src="images/logo.svg" alt="#."></figure>
+          </a> </div>
+        <div class="header_right">
+          <div class="header_search">
+            <div class="header_srch_field">
+              <input type="text" placeholder="Search">
+            </div>
+          </div>
+          <div class="header_uer_info_sec">
+            <ul>
+              <li class="header_uer_info_li">
+                <div class="header_settings"><a href="javascript:void(0)" class="header_settings_icon"></a></div>
+              </li>
+              <li class="header_uer_info_li">
+                <div class="header_notify"><a  href="javascript:void(0)" class="header_notify_bell"><i class="header_notify_status"></i></a>
+                  <div class="notify_popup notify_popup_show">
+                    <div class="notifyPop_inner">
+                      <div class="notifyPop_header"> <strong>Notification <a href="javascript:void(0)">Remove all</a></strong> </div>
+                      <div class="notifyPop_content">
+                        <div class="notify_popup_tabs">
+                          <div class="notify_popup_tabs_title">
+                            <ul>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_buyer active" href="javascript:void(0)">Buyer</a></li>
+                              <li><a class="filter_sellingBuy_btn notify_popup_tab_seller" href="javascript:void(0)">Seller</a></li>
+                            </ul>
+                          </div>
+                          <div class="notify_popup_tabs_content">
+                            <div class="notify_popup_tabs_show notify_popup_tab_buyer">
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Today</strong> <span>2 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="notifyPop_rowGroup_row">
+                                <div class="notifyPop_rowGroup_title"> <strong>Yesterday</strong> <span>4 Items</span> </div>
+                                <ul class="notifyPop_rowGroup">
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <div class="notifyPop_list_box">
+                                      <div class="notify_dotted_menu"> <span class="notify_dotted_icon"></span>
+                                        <div class="notify_dotted_dropdown">
+                                          <p><a class="notify_dotted_remove" href="javascript:void(0)">Remove</a></p>
+                                        </div>
+                                      </div>
+                                      <div class="notifyPop_list_img"> <span><img src="images/deals_img3.png" alt="#"></span> </div>
+                                      <div class="notifyPop_text">
+                                        <p>Khalid has made a higher bid on <strong>mazda 3</strong> today!</p>
+                                        <small>3 hours ago</small> </div>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header_uer_info_li header_user_info_li">
+                <div class="user_info_top">
+                  <div class="header_user_info_text"> <strong>Darren Ritchie</strong> <span><a class="header_editPro_link" href="javascript:void(0)">Edit Profile</a></span> </div>
+                  <a class="header_user_avatar" href="javascript:void(0)"><img src="images/user_avatar.png" alt="#"><i class="header_avatar_setting_icon"></i></a> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="left_menu">
+    <div class="left_bar_inner">
+      <div class="menuMain">
+        <div class="menu_clos">x</div>
+        <ul class="lb_menuTop_list">
+          <li><a class="lb_home" href="home_buyer.html">Home</a> </li>
+          <li><a class="lb_categories" href="categories.html">Categories</a> </li>
+          <li><a class="lb_active_deals active" href="active_deals_buyer.html">Active Deals</a> </li>
+          <li><a class="lb_sponsorship" href="sponsors.html">Sponsorship</a> </li>
+          <li><a class="lb_Chat" href="chat.html">Chat</a> </li>
+        </ul>
+        <ul class="lb_menulogout_list">
+          <li><a class="lb_contactUs" href="contact_us.html">Contact Us</a> </li>
+          <li><a class="lb_signOut" href="login_with_email.html">Sign out</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <main class="content" role="main">
+    <div class="all_content_box">
+      <div class="content_main">
+        <div class="active_deals_main">
+          <div class="autoContent">
+            <div class="product_content">
+              <h2 class="product_title_back"><a class="product_back_arrow" href="javascript:void(0)"></a> Active Deals</h2>
+              <div class="product_info_top">
+                <div class="product_info_right">
+                  <div class="product_slider_main">
+                    <div class="product_slider_big">
+                      <div class="product_slider_run"> <span><img src="images/slider_img_big1.png" alt="#"></span> </div>
+                      <div class="product_slider_run"> <span><img src="images/slider_img_big1.png" alt="#"></span> </div>
+                      <div class="product_slider_run"> <span><img src="images/slider_img_big1.png" alt="#"></span> </div>
+                      <div class="product_slider_run"> <span><img src="images/slider_img_big1.png" alt="#"></span> </div>
+                      <div class="product_slider_run"> <span><img src="images/slider_img_big1.png" alt="#"></span> </div>
+                    </div>
+                    <div class="product_thumb_slider">
+                      <div class="">
+                        <div class="product_thumb_box"> <span><img src="images/slider_img_small1.png" alt="#"></span> </div>
+                      </div>
+                      <div class="">
+                        <div class="product_thumb_box"> <span><img src="images/slider_img_small2.png" alt="#"></span> </div>
+                      </div>
+                      <div class="">
+                        <div class="product_thumb_box"> <span><img src="images/slider_img_small3.png" alt="#"></span> </div>
+                      </div>
+                      <div class="">
+                        <div class="product_thumb_box"> <span><img src="images/slider_img_small2.png" alt="#"></span> </div>
+                      </div>
+                      <div class="">
+                        <div class="product_thumb_box"> <span><img src="images/slider_img_small3.png" alt="#"></span> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_info_left">
+                  <h1 class="product_approvedBid_title">Chevrolet <a class="product_approvedBid_title_edit" href="javascript:void(0)"></a></h1>
+                  <h2>Captivia</h2>
+                  <div class="product_timeLeft">
+                    <div class="product_timeLeft_text"> <strong>Time Left</strong> <span>3 Days 5 Hours 13 Minutes</span> </div>
+                    <div class="product_timeLeft_more">
+                      <ul>
+                        <li><a class="product_extend_link" href="javascript:void(0)">Extend</a></li>
+                        <li><a class="product_share_link" href="javascript:void(0)">Share</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product_owner_info">
+                    <ul>
+                      <li>
+                        <div class="product_owner_text product_userInfo_owner"> <small>Owner</small>
+                          <h3><a class="product_user_name verified" href="javascript:void(0)">Khalid Saied</a></h3>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product_owner_text product_userInfo_location"> <small>Location</small>
+                          <h3>Abu Dhabi, UAE</h3>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product_owner_text product_userInfo_buyPrice"> <small>Buying Price</small>
+                          <h3>31,000 KD</h3>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="product_owner_text product_userInfo_views"> <small>Views</small>
+                          <h3>10,920</h3>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product_price_row">
+                    <div class="product_price_left">
+                      <h3>3,928,00</h3>
+                      <small>KD</small> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product_specs_main">
+                <div class="product_specs_right">
+                  <div class="product_specs_listOuter">
+                    <div class="product_specs_title">
+                      <h3>Technical Specs</h3>
+                    </div>
+                    <div class="product_specs_list">
+                      <ul>
+                        <li>
+                          <p><span>Make</span><strong>Toyota</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Transmission</span><strong>Automatic</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Model</span><strong>Camry</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Interior Color</span><strong>Red</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Exterior Color</span><strong>Black</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Number of Cylinders</span><strong>8 Cylinders</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Oldest Year</span><strong>2017</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Newest Year</span><strong>2021</strong></p>
+                        </li>
+                        <li>
+                          <p><span>New or Used</span><strong>New</strong></p>
+                        </li>
+                        <li>
+                          <p><span>Max Price</span><strong>40,000 KD</strong></p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_specs_left">
+                  <div class="product_specs_title">
+                    <div class="filter_serviceItems_menu profile_info_menu full_width">
+                      <ul class="mr0">
+                        <li><a class="productApproved_pendingBid_link " href="javascript:void(0)">Pending Bids</a></li>
+                        <li><a class="productApproved_approveBid_link active" href="javascript:void(0)">Approved Bids</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product_bid_table_main">
+                    <div class="all_table_main">
+                      <div class="table_content">
+                        <ul>
+                          <li class="all_table_li">
+                            <div class="table_row">
+                              <div class="table_cell bid_cell1">
+                                <div class="bid_table_userInfo">
+                                  <div class="bid_userAvatar"><img src="images/bid_user_avatar.png" alt="#"></div>
+                                  <strong>Khalid Saied</strong> </div>
+                              </div>
+                              <div class="table_cell bid_cell2">
+                                <p>50,000 KD</p>
+                              </div>
+                              <div class="table_cell bid_cell3"> <a class="bid_approved_tbl_icon bid_approved_doubleTick" href="javascript:void(0)"></a> </div>
+                              <div class="table_cell bid_cell4"> <a href="javascript:void(0)" class="bid_approved_tbl_icon bid_approved_delete">#1</a> </div>
+                            </div>
+                          </li>
+                          <li class="all_table_li">
+                            <div class="table_row">
+                              <div class="table_cell bid_cell1">
+                                <div class="bid_table_userInfo">
+                                  <div class="bid_userAvatar"><img src="images/bid_user_avatar.png" alt="#"></div>
+                                  <strong>Khalid Saied</strong> </div>
+                              </div>
+                              <div class="table_cell bid_cell2">
+                                <p>50,000 KD</p>
+                              </div>
+                              <div class="table_cell bid_cell3"> <a class="bid_approved_tbl_icon bid_approved_doubleTick" href="javascript:void(0)"></a> </div>
+                              <div class="table_cell bid_cell4"> <a href="javascript:void(0)" class="bid_approved_tbl_icon bid_approved_delete">#1</a> </div>
+                            </div>
+                          </li>
+                          <li class="all_table_li">
+                            <div class="table_row">
+                              <div class="table_cell bid_cell1">
+                                <div class="bid_table_userInfo">
+                                  <div class="bid_userAvatar"><img src="images/bid_user_avatar.png" alt="#"></div>
+                                  <strong>Khalid Saied</strong> </div>
+                              </div>
+                              <div class="table_cell bid_cell2">
+                                <p>50,000 KD</p>
+                              </div>
+                              <div class="table_cell bid_cell3"> <a class="bid_approved_tbl_icon bid_approved_doubleTick" href="javascript:void(0)"></a> </div>
+                              <div class="table_cell bid_cell4"> <a href="javascript:void(0)" class="bid_approved_tbl_icon bid_approved_delete">#1</a> </div>
+                            </div>
+                          </li>
+                          <li class="all_table_li">
+                            <div class="table_row">
+                              <div class="table_cell bid_cell1">
+                                <div class="bid_table_userInfo">
+                                  <div class="bid_userAvatar"><img src="images/bid_user_avatar.png" alt="#"></div>
+                                  <strong>Khalid Saied</strong> </div>
+                              </div>
+                              <div class="table_cell bid_cell2">
+                                <p>50,000 KD</p>
+                              </div>
+                              <div class="table_cell bid_cell3"> <a class="bid_approved_tbl_icon bid_approved_doubleTick" href="javascript:void(0)"></a> </div>
+                              <div class="table_cell bid_cell4"> <a href="javascript:void(0)" class="bid_approved_tbl_icon bid_approved_delete">#1</a> </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!--""""""""""""""""""""""all settings popup's html below""""""""""""""""""""""""--> 
+
+<!--settings popup start-->
+<div class="all_popup settings_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Settings</strong>
+            <div class="uploadImages_row">
+              <div class="settings_pop_lists">
+                <ul>
+                  <li><span class="settings_pop_title">Account</span></li>
+                  <li><a class="settings_pop_btn settings_pop_changePw" href="reset_password.html">Change Password</a></li>
+                  <li><a class="settings_pop_btn settings_pop_changeLang" href="javascript:void(0)">Change Language</a></li>
+                  <li><a class="settings_pop_btn settings_pop_contactUs" href="contact_us.html">Contact Us</a></li>
+                  <li><a class="settings_pop_btn settings_pop_blnce" href="balance.html">Top-up Balance</a></li>
+                  <li><span class="settings_pop_title">Others</span></li>
+                  <li><a class="settings_pop_btn settings_pop_privacy" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="settings_pop_btn settings_pop_terms" href="terms.html">Terms &amp; Conditions</a></li>
+                  <li><a class="settings_pop_btn settings_pop_deleteAc" href="javascript:void(0)">Delete Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--settings popup end--> 
+
+<!--language select popup start-->
+<div class="all_popup language_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Select Language <small>Select your preferred app language</small> </strong>
+            <div class="pick_service_type_list lang_check_main">
+              <ul>
+                <li>
+                  <div class="pick_service_box">
+                    <div class="pick_service_cell">
+                      <input class="lang_check lang_check_ar" type="radio" name="lang">
+                      <i class="lang_check_ar_icon"></i> <strong>Arabic</strong> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="pick_service_box active">
+                    <input class="lang_check lang_check_eng" checked="checked" type="radio" name="lang">
+                    <div class="pick_service_cell"> <i class="lang_check_eng_icon"></i> <strong>English</strong> </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="pick_item_proceed_out"> <a class="lang_popup_addNewBitBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Add New Bid</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--language select popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup delete_account_confirmation_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <h2>Delete Account?</h2>
+              <p>Are you sure you want to delete your account, that will remove all saved data and bid you've made earlier</p>
+              <div class="formRow clearfix">
+                <div class="formCell col6"><a class="cancelBtn all_buttons btn_block green_border" href="javascript:void(0)">Cancel</a></div>
+                <div class="formCell col6"><a class="accountDeleteBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Delete</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--delete account confirmation popup start-->
+<div class="all_popup small_popup account_deleted_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>Account Deleted!</h2>
+              <p>Your account has been deleted successfully and all data was terminated</p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="login_with_email.html">Back to Login</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<!--delete account confirmation popup end--> 
+
+<!--""""""""""""""""""""""all settings popup's html end""""""""""""""""""""""""--> 
+
+<!--Block User popup start-->
+<div class="all_popup small_popup block_user_confirmation_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <h2>Block User</h2>
+              <p>Are you sure you want to block this user, he won't see your ads or be able to bid</p>
+              <div class="formRow clearfix">
+                <div class="formCell col6"><a class="cancelBtn all_buttons btn_block green_border" href="javascript:void(0)">Cancel</a></div>
+                <div class="formCell col6"><a class="blockUserBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Block</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--Block User popup end--> 
+
+<!--User Blocked popup start-->
+<div class="all_popup small_popup user_blocked_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/account_deleted_circle.svg" alt="#"> </div>
+              <h2>User Blocked</h2>
+              <p>This user has been blocked and won't see your ads or bid at them anymore</p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="home_buyer.html">Back to Home</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<!--User Blocked popup end--> 
+
+<!--Rate User popup start-->
+<div class="all_popup small_popup rate_user_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <h2>Rate User</h2>
+              <p>Are you sure you want to block this user, he won't see your ads or be able to bid</p>
+              <div class="rateUser_stars_row clearfix">
+                <fieldset class="rating">
+                  <input type="radio" id="star5" name="rating" value="5" />
+                  <label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                  <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                  <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                  <input type="radio" id="star4" name="rating" value="4" />
+                  <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                  <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                  <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                  <input type="radio" id="star3" name="rating" value="3" />
+                  <label class = "full" for="star3" title="Meh - 3 stars"></label>
+                  <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                  <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                  <input type="radio" id="star2" name="rating" value="2" />
+                  <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                  <input type="radio" id="star1half" name="rating" value="1 and a half" />
+                  <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                  <input type="radio" id="star1" name="rating" value="1" />
+                  <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                  <input type="radio" id="starhalf" name="rating" value="half" />
+                  <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                </fieldset>
+              </div>
+              <div class="formRow rate_userPopup_area_row clearfix">
+                <div class="formCell col12">
+                  <div class="form_field">
+                    <textarea placeholder="Tell us more about your experience .." class="rate_userPopup_area"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="formRow clearfix">
+                <div class="formCell col6"><a class="cancelBtn all_buttons btn_block green_border" href="javascript:void(0)">Cancel</a></div>
+                <div class="formCell col6"><a class="rateUserPopupBtn all_buttons btn_block lignt_green" href="javascript:void(0)">Rate User</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<!--Rate User popup end--> 
+
+<!--User Blocked popup start-->
+<div class="all_popup small_popup user_blocked_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="account_deleted_circle"> <img src="images/review_recived_circle.svg" alt="#"> </div>
+              <h2>Review Received</h2>
+              <p>Your review has been received and will be published once confirmed </p>
+              <div class="formRow clearfix">
+                <div class="formCell col12"><a class="accountDleted_backBtn all_buttons btn_block lignt_green" href="login_with_email.html">Back to Login</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay" style="pointer-events: none;"></div>
+    </div>
+  </div>
+</div>
+<!--User Blocked popup end-->
+
+<div class="all_popup small_popup createNew_bid_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content"> <strong class="popup_title_heading">Add New Bid</strong>
+            <div class="uploadImages_row">
+              <div class="item_info_form has_dark_placeholder">
+                <div class="formParent">
+                  <div class="formRow clearfix">
+                    <div class="formCell col12">
+                      <div class="form_field bid_priceField">
+                        <input type="text" placeholder="" onclick="bid_field_mask(this)">
+                        <i>KD</i> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pick_item_proceed_out"> <a class="add_bid_save_btn all_buttons btn_block light_green" href="javascript:void(0)">Add New Bid</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<div class="all_popup small_popup product_share_popup">
+  <div class="popup_table_wrap">
+    <div class="popup_cell_wrap">
+      <div class="popup_auto">
+        <div class="popup_detail">
+          <div class="popup_content">
+            <div class="confirmation_text">
+              <div class="bid_share_pop_title">
+                <h2 class="clearfix">Share </h2>
+                <a class="bid_share_copyLink" href="javascript:void(0)0">Copy Link</a> </div>
+              <div class="bid_share_list">
+                <ul>
+                  <li><a href="javascript:void(0)"><img src="images/share_fb.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_instagram.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_twitter.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_pin.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_whatsapp.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_snap.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_youtube.svg" alt="#"> </a></li>
+                  <li><a href="javascript:void(0)"><img src="images/share_linkedin.svg" alt="#"> </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup_overlay"></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/slick.min.js"></script> 
+<script>
+
+function bid_field_mask(obj){
+	$(obj).mask('00000000000');
+}
+
+ $(".side_priceRange_slider").ionRangeSlider({
+	min: 8000,
+	max: 80000,
+	 postfix: " KD ",
+	from: 40000,
+	onStart: function (data) {
+		// fired then range slider is ready
+	},
+	onChange: function (data) {
+		// fired on every range slider update
+	},
+	onFinish: function (data) {
+		// fired on pointer release
+	},
+	onUpdate: function (data) {
+		// fired on changing slider with Update method
+	}
+});
+
+
+
+$(document).ready(function(e) { 
+
+ $(".filter_addNewList_btn").click(function() {
+	$(".serviceType_popup").show();
+	$("html, body").addClass("popup_hidden");
+});
+
+ $(".pick_item_proceed_btn").click(function() {
+	 if($(".pick_service_check_item").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".add_images_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".add_images_popup").show();
+	 } 
+	 
+	  if($(".pick_service_check_service").prop("checked") === true){
+	   $(".serviceType_popup").hide();
+	   $(".service_item_info_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+ 
+
+ $(".pick_item_iteminfo_next_btn").click(function() {
+	 $(".all_popup").hide();
+	$(".item_promotion_popup").show();
+	$("html, body").addClass("popup_hidden");
+});
+
+
+
+ $(".pick_item_promo_next_btn").click(function() {
+	 if($(".pick_service_check_item").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_added_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_added_popup").show();
+	 } 
+	 
+	  if($(".pick_service_check_service").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".service_added_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+
+ $(".pick_item_addImages_next_btn").click(function() {
+	 $ 
+	  if($(".pick_service_check_item").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".item_info_popup").show();
+	 } 
+	 
+	 if($(".pick_service_check_request").prop("checked") === true){
+	   $(".all_popup").hide();
+	   $(".request_item_info_popup").show();
+	 } 
+	$("html, body").addClass("popup_hidden");
+});
+
+
+
+
+$('.product_slider_big').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.product_thumb_slider',
+  infinite: true,
+   adaptiveHeight: true,
+   rtl: true
+});
+$('.product_thumb_slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.product_slider_big',
+  dots: false,
+  centerMode: false,
+  focusOnSelect: true,
+  infinite: true,
+   arrows: true,
+   rtl: true
+});
+
+
+
+
+});
+
+
+
+
+
+</script>
+</body>
+</html>

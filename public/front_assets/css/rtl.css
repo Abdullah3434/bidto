@@ -1,0 +1,246 @@
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.login_field_title{ padding-left:0px; padding-right:30px; background-position: right 3px !important;}
+
+.all_buttons.has_userPlus_icon{ background-position: right 25px center !important;}
+ 
+ 
+.all_buttons.has_login_icon{ background:url(../images/login_white_rtl.svg) no-repeat right 25px center; }
+.all_buttons.has_login_icon:hover{ background:url(../images/login_white_rtl.svg) no-repeat right 25px center; }
+
+ 
+.all_buttons.all_white.has_login_icon_dark{ background:url(../images/login_dark_rtl.svg) no-repeat right 25px center;  }
+.all_buttons.all_white.has_login_icon_dark:hover{ background:url(../images/login_white_rtl.svg) no-repeat right 25px center;   }
+
+.form_checkbox label{ padding-left:0px; padding-right:36px; }
+.checkbox_checked{ left:initial; right:0px; }
+
+.confirmField_show_pw{ right:initial; left:0px; }
+
+
+.field_has_eye_icon{ padding-right:15px !important; padding-left:50px !important; }
+
+.left_menu{ left:initial; right:0px; }
+
+.content{ padding-left:0px; padding-right:300px; }
+
+.header_srch_field input{ padding-left:15px; padding-right:44px; background-position: right 10px center !important; }
+
+.header_uer_info_sec ul li{ padding-left:0px; padding-right:30px; }
+
+.header_uer_info_sec ul li.header_user_info_li{ margin-left:0px; margin-right:40px;   padding-left:0px; padding-right:20px;}
+
+.header_uer_info_sec ul li.header_user_info_li:before{ left:initial; right:0px; }
+
+.user_info_top{ padding-right:0px; padding-left:60px; }
+.header_user_avatar{ right:initial; left:0px; }
+
+
+.menuMain ul li a{ padding-left:12px; padding-right:100px; }
+.menuMain ul li a:before{ left:initial; right:0px; }
+.menuMain ul li a{ background-position: right 50px center !important;}
+
+
+.all_content_box{ border-radius:0px 30px 0px 0px;}
+.left_bar_inner{ direction:initial; }
+
+
+.all_buttons.has_plus_icon{background-position: right 10px center !important; padding-left:10px !important; padding-right:30px !important; }
+
+.header_user_info_text{ text-align:left; }
+
+
+
+.notify_popup{ right:initial; left:-50px; }
+
+.notifyPop_header strong a{ float:left; }
+.notify_popup_tabs_title ul li{  padding-right:5px; }
+.notify_popup_tabs_title ul li:first-child  { padding-right:0px;}
+
+.notifyPop_list_box{ padding-left:36px; padding-right:56px; }
+
+.notify_dotted_menu{ right:initial; left:-10px;}
+.notifyPop_list_img{ left:initial; right:0px; }
+
+.notify_popup_tabs_show ul li{ padding:0px 0px 15px 0px !important; }
+
+.notify_dotted_dropdown{ right:initial; left:0px;}
+
+
+.has_search_icon input{ padding-left:15px !important; padding-right:40px !important; background-position: right 15px center !important;}
+
+
+.side_popup_whitebox{ right:initial; left:-100%; }
+.side_popup.active .side_popup_whitebox{ right:initial; left:0px; }
+
+.side_popup_heading{ padding-left:20px; padding-right:120px; }
+.side_popup_back_arrow{ left:initial; right:40px; }
+
+
+
+.filter_sellingBuy_box ul li{  padding-left:0px; padding-right:5px; }
+.filter_sellingBuy_box ul li:first-child{padding-left:0px;  padding-right:0px; }
+
+
+.filter_sort_btns_box ul li{   padding-left:0px; padding-right:10px; }
+.filter_sort_btns_box ul li:first-child{ padding-left:0px; padding-right:0px; }
+
+.new_list_progress_bar{ left:initial; right:0px; }
+
+
+ 
+.all_buttons.has_proceed_icon { background: url(../images/proceed_arrow_rtl.svg) no-repeat left 15px center;}
+
+.selectbox_span{ padding-right:15px !important; padding-left:30px !important; background-position: left 15px center !important; }
+
+.side_popup_back_arrow{ background: url(../images/next_arrow.svg) no-repeat center center; background-size:10px auto; }
+
+
+.notify_popup:after{ right:initial; left:49px; }
+.settings_pop_btn{ text-align:right; padding-left:40px; background-position: left 15px center !important; background: url(../images/prev_arrow.svg) no-repeat left 15px center; background-size:10px auto;}
+
+.formCell{ float:right; }
+
+.deal_list_hash_parent small{ padding-right:0px; padding-left:6px; }
+.deal_list_auther span, .deal_list_price strong{ padding-right:0px; padding-left:10px; }
+
+.services_list_run h2{ padding-right:0px; padding-left:40px; }
+.services_list_run h2 .bookmark_item_star{ right:initial; left:0px;  }
+
+
+.terms_privacy_cocntent ul li{ margin-left:0px; margin-right:20px;  }
+.terms_privacy_cocntent ol li{ margin-left:0px; margin-right:20px; padding-right:10px;  }
+.terms_privacy_cocntent ul li::before{ margin-left:0px; margin-right:-1em; }
+
+
+.product_info_left{ padding-right:0px; padding-left:50px; }
+.product_specs_left{ padding-right:0px; padding-left:50px; }
+
+.product_specs_newBid_link{ margin-left:0px; margin-right:auto; }
+
+.bid_priceField i{ right:initial; left:0px; }
+
+
+.product_timeLeft_more ul{ text-align:left; }
+.product_timeLeft_more ul li{ padding-left:0px; padding-right:20px; }
+
+.product_title_back{ padding-left:0px; padding-right:50px; }
+.product_back_arrow{ left:initial; right:0px; }
+
+.product_back_arrow{ background:url(../images/back_arrow_white_rtl.svg) no-repeat center center; background-size:8px auto;   }
+
+
+.product_specs_list ul li strong{ margin-left:0px; margin-right:auto; } 
+.product_specs_list ul li span{ padding-left:10px; padding-right:0px; }
+
+
+.bid_table_userInfo{ padding-left:0px; padding-right:60px; }
+
+.bid_userAvatar{ left:initial; right:0px; }
+
+.product_approvedBid_title{ padding-right:0px; padding-left:60px; }
+
+.product_approvedBid_title_edit{ right:initial; left:0px; }
+
+
+.product_owner_info ul{ text-align:right; }
+
+.product_owner_info ul li{ padding-right:0px; padding-left:20px; }
+.product_owner_text{ padding-left:0px; padding-right:40px; background-position:right center !important;  }
+
+
+.product_user_name.verified{ padding-right:0px; padding-left:30px; }
+.product_user_name.verified:after{ right:initial; left:0px; }
+
+.filter_serviceItems_menu.profile_info_menu ul li{ padding-right:0px; padding-left:25px;}
+.filter_serviceItems_menu ul li:last-child{ padding-left:0px; }
+
+
+.product_timeLeft_more ul li a{ padding-right:0px; padding-left:15px; background:url(../images/set_reminder_prev.svg) no-repeat left 1px center; background-size:6px auto;  }
+
+.contact_us_footer_right ul li{ padding-left:0px; padding-right:10px; }
+
+
+.profile_user_info{ padding-left:0px; padding-right:190px;}
+.profile_user_avatar{ left:initial; right:0px; }
+
+.profileInfo_since{ text-align:left; }
+.profileInfo_since ul li{ padding-left:0px; padding-right:20px; }
+
+.profile_rating span{ padding-left:0px; padding-right:15px; font-size:18px; }
+
+.profile_rating_stars_bar{ left:initial; right:0px; background-position:right center !important; }
+.profile_rating_stars{background-position:right center !important; }
+
+
+.latest_transection_list_box span{ padding-right:0px; padding-left:20px; }
+
+.saved_ac_cell.saved_ac_creatNew{ padding-left:0px; padding-right:10px; }
+
+.cardSaved_check{ padding-left:0px; padding-right:46px; background-position:right 2px !important; }
+
+.balance_newCard_popup .form_field input{ padding-left:15px !important; padding-right:60px !important; background-position:right 18px center !important;  }
+
+
+
+.chat_listInn{ padding-left:10px; padding-right:70px; }
+.chat_listPic{ left:initial; right:30px; }
+
+.chtBox_pendingMsg{ right:initial; left:10px; }
+
+.chatBox_status{ left:initial; right:-22px;  }
+
+.userMessage_boxOut{ padding-left:0px; padding-right:60px; }
+
+.userMessage_sendrPicBox{ left:initial; right:0px;  }
+
+.userMessageTime{ padding-left:0px; padding-right:10px; }
+
+.chat_right_scroll, .chat_left_inner{ direction:ltr; }
+.chatViewAll_link{ float:left; padding-right:0px; padding-left:18px;  background:url(../images/double_arrow_left.svg)  no-repeat left center; background-size:9px auto; }
+
+.chat_right_header{ padding-left:0px; padding-right:76px; }
+
+.chart_right_backArrow{ left:initial; right:20px;background: url(../images/next_arrow.svg) no-repeat left 15px center; background-size:8px auto;  }
+
+.chatBox_detail{ direction:rtl; }
+
+.isUser_typing{ padding-left:8px; padding-right:56px; }
+.isUser_typing .userMessage_sendrPic{ left:initial; right:0px;  }
+
+.chatBox_typeMsg_area{ padding-left:110px; padding-right:80px; }
+
+
+.chatVoiceUpload{ left:initial; right:15px; }
+.chatVoiceUpload.chat_voiceMsg_btn{ left:initial; right:56px; }
+
+.chat_emoji{ right:initial; left:70px; }
+.chatBox_sendBtn{ right:initial; left:10px; }
+.chat_emoji_dropdown{ right:initial; left:-20px; }
+
+.otp_fields_row ul li{ float:right; }
+
+.reg_pw_infoLong ul li{ margin-left:0px; margin-right:20px; }
+
+
+.all_buttons.has_sighnUp_icon{ background-position: right 25px center !important; }
+.all_buttons.has_tick_icon{ background-position: right 25px center; }
+
+
+
+.product_share_popup .confirmation_text h2{ text-align:right; }
+ .bid_share_copyLink{ right:initial; left:0px; }
+
+
+
+
+
+
+
+
+
